@@ -1,0 +1,16 @@
+{
+  "name": "auth-example",
+  "version": "1.0.0",
+  "description": "Authentication and Authorization example with Node.js, Express, and JWT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bytes": "^3.1.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.16.1"
+  }
+}
