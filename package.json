@@ -4,13 +4,24 @@
   "description": "Authentication and Authorization example with Node.js, Express, and JWT",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "mocha",
+    "start": "node server.js",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "20"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "bytes": "^3.1.2",
+    "chai": "^4.5.0",
+    "chai-http": "^4.4.0",
+    "dotenv": "^16.6.1",
     "express": "^4.18.2",
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0",
     "jsonwebtoken": "^9.0.2",
+    "mocha": "^11.7.5",
     "mysql2": "^3.16.1"
   }
 }
